@@ -1,10 +1,10 @@
-# Weekend Challenge: JS Salary Calculator
+<!-- # Weekend Challenge: JS Salary Calculator
 
-Your task is to create an application that records employee salaries and adds salaries up to report monthly costs.
+Your task is to create an application that records employee salaries and adds salaries up to report monthly costs. -->
 
-## Requirements:
+<!-- ## Requirements:
 
-* This application should have a form with five inputs that collect a new employee's *first name, last name, ID number, job title, annual salary*.
+* This application should have a form with five inputs that collect a new employee's *first name, last name, ID number, job title, annual salary*. -->
 
 * When the "Submit" button is clicked:
     * A new employee row should be added to the table.
@@ -17,14 +17,14 @@ Your task is to create an application that records employee salaries and adds sa
 * Create a "Delete" button that removes an employee from the DOM.
     * **For base mode**, the total monthly cost **does not** need to be updated when an employee is deleted.
 
-## Please Don't Fork This Repo:
+<!-- ## Please Don't Fork This Repo:
 
 Instead of forking, please click **Use This Template** (the green button) and name your new repo **weekend-salary-calculator**. Then, you can clone it as usual.
 
 By clicking **Use This Template**, you are essentially still forking the repo. But, the difference is that:
 * It will appear as a **public** repository in your GitHub.
-* All of the previous commits on this repo will not be included in your copy.
-
+* All of the previous commits on this repo will not be included in your copy. -->
+<!-- 
 ## You're Basically Starting From Scratch:
 
 Besides the automated tests, the only file we have provided you with is `index.html`. You'll need to create and source the other files you'll need.
@@ -33,7 +33,7 @@ Besides the automated tests, the only file we have provided you with is `index.h
 
 After you've cloned this repository, you'll need to:
 * Run `cd weekend-salary-calculator` to get "inside" the project directory.
-* Run `npm install` to install the libraries that the automated tests rely on.
+* Run `npm install` to install the libraries that the automated tests rely on. -->
 
 Then, at any point, you can execute the test suite by running:
 * `npm test`
@@ -56,15 +56,15 @@ Nifty!
 * You must use a `<table>` element, where each employee is represented by a single `<tr>`.
 * The *total monthly* cost must be rendered somewhere inside the `<footer>` element.
 
-**PLEASE DO**:
+<!-- **PLEASE DO**:
 * Leverage the tests to ensure that you are satisfying each of the requirements.
 * Run the tests often to verify your code's behavior as you implement each step of required functionality.
 
 ## Wireframe:
 
-![Wireframe](salary-calc-wireframe.png)
+![Wireframe](salary-calc-wireframe.png) -->
 
----
+<!-- --- -->
 
 ## Stretch Goals:
 

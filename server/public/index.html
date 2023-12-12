@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./public/styles/style.css">
+  <title>Salary Calculator</title>
+</head>
+<body>
+  <header>
+    <h1>Salary Calculator</h1>
+  </header>
+  <main>
+    <h2>Add Employee</h2>
+    
+    <form class="employee-form" onSubmit="submitForm(event)">
+      <input data-testid="firstNameInput" id="firstName" placeholder="First Name" type="text">
+      <input data-testid="lastNameInput" id="lastName" placeholder="Last Name" type="text">
+      <input data-testid="idInput" id="id-input" placeholder="ID Number" type="text">
+      <input data-testid="titleInput" id="title" placeholder="Title" type="text">
+      <input data-testid="annualSalaryInput" id="salary" placeholder="Annual Salary" type="text"> <br><br>
+      <button type="submit" data-testid="submitButton" id="submit">Submit</button>
+    </form>
+    
+    <h2>Employees</h2>
+  
+  <table id="employees">
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>ID Number</th>
+        <th>Title</th>
+        <th>Annual Salary</th>
+        <th></th>
+      </tr>
+    </thead>
+      <tbody id="employeeData"> 
+      <tr></tr>
+    </tbody>
+  </table>
+  </main>
+  <footer>
+    <span id="val"></span>
+  </footer>
+  <script src="./public/scripts/client.js"></script>
+</body>
+</html>
